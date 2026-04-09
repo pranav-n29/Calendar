@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗓️ Interactive Wall Calendar
 
-## Getting Started
+A modern, responsive **wall calendar component** built with Next.js, inspired by physical calendars and enhanced with interactive features like date range selection, notes, and subscription tracking.
 
-First, run the development server:
+---
+
+## 🚀 Live Features
+
+### 📅 Calendar Interaction
+
+* Select **date ranges** (start → end)
+* Visual highlight for:
+
+  * Start date
+  * End date
+  * Range in between
+* Month navigation (previous / next)
+
+---
+
+### 🧠 Smart Notes System
+
+* Add notes for:
+
+  * Individual dates
+  * Selected date ranges
+* Notes persist using **localStorage**
+* Dynamic note switching based on selection
+
+---
+
+### 🎯 Subscription / Event Indicators
+
+* Add icons (Netflix, Adobe, Amazon, etc.) inside calendar days
+* Support for:
+
+  * Multiple indicators per day
+  * Colored event dots
+* Mimics real-world **subscription tracking UI**
+
+---
+
+### 🎨 UI/UX Highlights
+
+* Clean **wall calendar aesthetic**
+* Smooth hover & click animations
+* Today highlight
+* Responsive layout:
+
+  * Desktop → split layout (image + calendar)
+  * Mobile → stacked layout
+
+---
+
+## 🛠️ Tech Stack
+
+* **Next.js (App Router)**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **date-fns**
+* **react-icons**
+
+---
+
+## 📂 Project Structure
+
+app/
+│
+├── components/
+│ ├── Calendar.tsx
+│ ├── Day.tsx
+│ └── NotesPanel.tsx
+│
+├── page.tsx
+├── layout.tsx
+└── globals.css
+
+---
+
+## ⚙️ How to Run Locally
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/Calendar.git
+cd Calendar
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
+👉 http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Demo
 
-## Learn More
+https://youtu.be/IGI_yNSUK_c
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Designed with **product thinking**, not just UI
+* Focus on **user experience and clarity**
+* Clean and modular component structure
+* Real-world use case: **subscription & planning calendar**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔮 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Dark / Light mode toggle
+* Monthly analytics (e.g., subscription cost 💰)
+* Drag & drop date selection
+* Backend integration for persistent storage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙌 Author
+
+**Pranav**
+Frontend Developer | React & Next.js Enthusiast
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
